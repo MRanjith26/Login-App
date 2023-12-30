@@ -8,11 +8,21 @@
 }
 .container {
   background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
-  height: 400px;
-  width: 500px;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 576px), (min-width: 576px) {
+  .container {
+    height: 350px;
+    width: 450px;
+  }
+}
+@media (min-width: 768px), (min-width: 992px), (min-width: 1200px) {
+  .container {
+    height: 400px;
+    width: 500px;
+  }
 }

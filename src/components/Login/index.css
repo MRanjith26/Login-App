@@ -1,12 +1,23 @@
-/* Write your CSS here */
 .button {
   background-color: #f8fafc;
   font-family: 'Roboto';
   font-size: 15px;
   color: #303150;
-  padding: 15px 18px;
+  padding: 15px 20px;
   border-radius: 7px;
+  margin-top: 20px;
   align-self: center;
+  border: none;
   cursor: pointer;
   outline: none;
+}
+@media (max-width: 576px), (min-width: 576px) {
+  .button {
+    width: 100px;
+  }
+}
+@media (min-width: 768px), (min-width: 922px), (min-width: 1200px) {
+  .button {
+    width: 200px;
+  }
 }

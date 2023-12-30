@@ -1,8 +1,18 @@
 /* Write your CSS here */
 .heading {
   font-family: 'Roboto';
-  font-size: 45px;
   color: #ffffff;
   text-align: center;
   padding-top: 20px;
+}
+@media (max-width: 576px), (min-width: 576px) {
+  .heading {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px), (min-width: 992px), (min-width: 1200px) {
+  .heading {
+    font-size: 45px;
+  }
 }
